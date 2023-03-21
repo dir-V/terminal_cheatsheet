@@ -138,6 +138,7 @@ drwxr-xr-x   2 vincent  staff     64 21 Mar 16:15 test_folder
 
 ### Manipulating Files and Folders:
 * `open` - allows a file to be opened
+
 <br />
 
 * `cp` - copies a  file
@@ -145,6 +146,14 @@ drwxr-xr-x   2 vincent  staff     64 21 Mar 16:15 test_folder
 
 <br />
 
-* `mv` - moves a files to a 
+* `mv` - allow for files to be moved to a different folder
 
-Git Commands
+<br />
+<br />
+
+#### Git Commands:
+* `git init` - initialises a git repository in the current directory you are in
+* `git_status` - shows the current status of the git repository
+* `git add` - adds a change in the working directory to the staging area
+* `git commit` - uploads a snapshot of the changes added to the files
+* `git push` - pushes a local file/folder to the cloud git repository.
