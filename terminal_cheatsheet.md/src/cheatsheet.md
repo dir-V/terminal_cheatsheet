@@ -157,3 +157,4 @@ drwxr-xr-x   2 vincent  staff     64 21 Mar 16:15 test_folder
 * `git add` - adds a change in the working directory to the staging area
 * `git commit` - uploads a snapshot of the changes added to the files
 * `git push` - pushes a local file/folder to the cloud git repository.
+* `git ignore`
