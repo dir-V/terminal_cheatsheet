@@ -1,33 +1,34 @@
 # Terminal Cheatsheet
 
 ### Navigation: <br>
+* `clear` clears current 
 * `cd` (change directory) - allows for navigation to a folder within the current directory <br>
-```
+``` shell
 ➜  week_01 cd day_1
 ➜  day_1 
 ```
 > Using `..` after `cd` will return to the parent folder.
-```
+```shell
 ➜  day_1 cd ..
 ➜  week_01 
 ```
 
 > Using `cd` with no argument will return to the root directory.
-```
+```shell
 ➜  day_1 cd
 ➜  ~ 
 ```
 <br />
 
 * `pwd` - (print working directory) - Shows the path to the current folder you are in.
-``` 
+```shell
 ➜  day_1 pwd
 /Users/vincent/bnta_work/week_01/day_1
 ```
 <br />
 
 * `ls` - Lists all files and folders in the current directory.
-```
+```shell
 ➜  ~ ls
 Desktop     Downloads   Movies      Pictures    Public      test_folder
 Documents   Library     Music       Postman     bnta_work
@@ -127,12 +128,23 @@ drwxr-xr-x   2 vincent  staff     64 21 Mar 16:15 test_folder
 * `touch` - creates new file
 > Always specify the extension of the file you want to create. Example: touch example.txt
 
-`Make text appear differently`
+<br />
 
-If you want to emphasize something you can use backtick ```
+* `rm` - completely deletes a file
+> To delete a folder using the `rm` command `-r` argument needs to added to command.
 
-```` java
-public boolean isEnough(){
-    return true;
-   }
-````
+<br />
+<br />
+
+### Manipulating Files and Folders:
+* `open` - allows a file to be opened
+<br />
+
+* `cp` - copies a  file
+> By default, executing this command alone will try to copy the file in the same directory as you are in with the exact same name, leading to an error. The location of where you want to copy the file to must also be added.
+
+<br />
+
+* `mv` - moves a files to a 
+
+Git Commands
